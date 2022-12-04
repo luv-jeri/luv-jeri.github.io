@@ -1,4 +1,18 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
 #container {
+
+    height: 100vh;
     background-color: #FF9E9E;
 }
 
